@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>my portfolio</title>
+        <meta name="description" content="my portfolio and introduction">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="images/cat.jpg">
+
+        <link rel="stylesheet" herf="http://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="pagetop.css" rel="stylesheet">
+        <link href="styletop.css" rel="stylesheet">
+        <link href="shootingstar.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <div id="particles-js"></div>
+        <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+        <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-9/js/5-9.js"></script>
+        <!-- <script href="./particles.js"></script> -->
+        
+        
+
+
+    <!-- ハンバーガーメニュー -->
+        <div class="drawer">
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input type="checkbox" name="navToggle" id="navToggle" class="nav-toggle">
+                <!-- ハンバーガーメニューのアイコン -->
+                <label for="navToggle" class="btn-burger">
+                    <div class="icon"></div>
+                </label>
+                <!-- 表示されるメニューの中身 -->
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="indextop.html">Home</a></li>
+                        <li><a href="about_me.html">About</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="contact_me.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </div>
+
+        <div id="home" class="big-bg">
+                <header class="page-header wrapper">
+                    <h1><a href="indextop.html"><img class="logo" src="images/logo.png" alt="my portfolio"></a></h1>
+
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="about_me.html">About</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="contact_me.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+        
+
+
+            <section>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </section>
+                
+            
+
+            <div class="home-content wrapper">
+                <h2 class="page-title">MY PORTFOLIO</h2>
+                <p>1年間のHTML/CSSの成果</p>
+                
+                <a class="button" href="./works.html">enter</a>
+            </div>
+
+            
+        </div>
+        <footer>
+            <p>Last Modified:
+                <script>
+                    var modified = new Date(document.lastModified);
+                    var year = modified.getFullYear();
+                    var month = modified.getMonth() + 1;
+                    var date = modified.getDate();
+                    
+                    var youbi = ['日','月','火','水','木','金','土'];
+                    var youbi2 = modified.getDay();
+                    document.write( year + "年"　+ month + "月" + date + "日" + youbi[youbi2] + "曜日");
+                </script>
+            </p>
+            <p><small>&copy;Masaaki Kato ,All Rights Reserved.</small></p>
+        </footer>
+            <p class="pagetop" id="top">
+                <a href="#" title="ページトップへ戻る">
+                <img src="images/pagetop.png" alt="▲PAGE TOP">
+                </a>
+            </p>
+    </body>
+</html>

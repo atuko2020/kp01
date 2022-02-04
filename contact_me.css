@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+    margin:0;
+}
+
+#contact{
+    position:relative;
+    z-index:1;
+    background-color: darkblue;
+    padding-left:2em;
+}
+#contact2 a{
+    cursor: pointer;
+}
+#contact form{
+    margin: 0 1em 0 2em;
+    /* position:relative; */
+    /* z-index:2; */
+   
+}
+#contact input, #contact form textarea{
+    border:none;
+    border-bottom:solid 2px aliceblue;
+    /* position:relative; */
+    /* z-index:2; */
+}
+
+#contact #message{
+    position:relative;
+    margin-bottom:1em;
+    
+}
+
+#contact form textarea{
+    position:absolute;
+    top:20px;
+    left:2em;
+    border:solid 1px black;
+}
+
+#contact form div{
+    line-height:2em;
+    padding:10px;
+}
+
+#contact form *:invalid{
+    border-color:red;
+}
+#contact h1{
+    margin:0;
+    color:darkcyan;
+}
+
+#t{
+    margin-bottom:0;
+}
+
+#t1{
+    vertical-align: middle;
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>works</title>
+    <meta name="works" content="myportfolio">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/cat.jpg">
+    <link rel="stylesheet" herf="http://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleleapis.com/css?family=Philosopher" rel="stylesheet">
+
+    <link href="portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-7/css/reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-7/css/5-7.css"> -->
+    <!-- <link href="styletop.css" rel="stylesheet"> -->
+    <link href="pagetop.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-7/js/5-7.js"></script>
+
+        <div class="drawer">
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input type="checkbox" name="navToggle" id="navToggle" class="nav-toggle">
+            <!-- ハンバーガーメニューのアイコン -->
+            <label for="navToggle" class="btn-burger">
+                <span class="icon"></span>
+            </label>
+            <!-- 表示されるメニューの中身 -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="indextop.html">Home</a></li>
+                    <li><a href="about_me.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="contact_me.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="indextop.html"><img class="logo" src="images/logo.png" alt="my portfolio ホーム"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="about_me.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="contact_me.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+        <div id="container">
+        <header>
+            <br>
+             <h1>MASAAKI KATO</h1>
+        </header>
+        <main>
+                <section>
+                    <h2>Works</h2>
+                    <div id="works">
+                        <div id="works1">
+                            <p><a href="k101_kadai9/index.html">課題９</a></p>
+                        </div>
+                        <div id="works2">
+                            <p><a href="k101_kadai10/index.html">課題10</a></p>
+                        </div>
+                        <div id="works3">
+                            <p><a href="k101_kadai20/index.html">課題20</a></p>
+                        </div>
+                        <div id="works4">
+                            <p><a href="k101_kadai21/index.html">課題21</a></p>
+                        </div>
+                        <div id="works5">
+                            <p><a href="k101_kadai22/index.html">課題22</a></p>
+                        </div>
+                    </div>  
+                </section>
+                
+                </div>
+               
+        </main>
+        
+        <div>
+            <footer>
+                <p>Last Modified:
+                    <script>
+                        var modified = new Date(document.lastModified);
+                        var year = modified.getFullYear();
+                        var month = modified.getMonth() + 1;
+                        var date = modified.getDate();
+                        
+                        var youbi = ['日','月','火','水','木','金','土'];
+                        var youbi2 = modified.getDay();
+                        document.write( year + "年"　+ month + "月" + date + "日" + youbi[youbi2] + "曜日");
+                    </script>
+                </p>
+                <p><small>&copy;Masaaki Kato ,All Rights Reserved.</small></p>
+            </footer>
+        </div>
+        <p class="pagetop">
+            <a href="#" title="ページトップへ戻る">
+                <img src="images/pagetop.png" alt="▲PAGE TOP">
+            </a>
+        </p>
+</body>
+
+
+</html>

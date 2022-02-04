@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* 20211105 モバイル版追加　*/
+@media(max-width: 800px){
+main{
+    width:100%;
+    box-sizing:border-box;
+    background-color:mistyrose;
+    
+}
+section p{
+    padding:0;
+}
+main section:nth-child(1) p,main section:nth-child(3) p{
+    width:95%;
+    
+    box-sizing:border-box;
+    float:none;
+}
+
+#container {
+      width:100%;
+      text-align:center;
+      
+    }
+
+
+  
+body {
+      background-image: url("../images/StockSnap_QW9GTHWZIS.jpg");
+      background-size:contain;
+      background-repeat:repeat;
+      
+      margin:0;
+      
+    }
+
+
+header{
+      width:100%;
+      height:300px;
+      background-color:palegoldenrod;
+    }  
+ul    {
+      list-style-image: url("../images/star.png");
+      list-style-position:inside;
+
+}
+
+section{
+      width:90%;
+      text-align:center;
+      overflow:hidden;
+      margin-right:auto;
+      margin-left:auto;
+      
+}
+.cat p{
+      width:55%;
+      min-width:320px;
+      box-sizing:border-box;
+      margin:0 1rem;
+   }
+.cat img {
+      width:35%;
+      min-width:200px;
+      box-sizing:border-box;
+   }
+
+main section:nth-child(2) p{
+      width:55%;
+      min-width:320px;
+      margin-right:auto;
+      margin-left:auto;
+   }
+main section:nth-child(1) img{
+      padding-right:1rem;
+   }
+
+
+
+h1   {
+      font-family: 'Hachi Maru Pop', cursive;
+      
+      color:rgb(221, 108, 42);
+      margin:0;
+      padding:1rem 1rem 0;
+      border-left:5px solid #ffa500;
+      border-bottom:3px solid burlywood;
+
+    }
+
+h2   {
+      font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+      
+      color:#800000;
+      margin:0;
+      padding:0.5rem 0.5rem 0;
+      border-left:5px solid #ffa500;
+      border-bottom:3px solid burlywood;
+    }
+
+p   {
+      font-family:"ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+      text-align:justify;
+      color:cadetblue;
+      line-height:1.7;
+      width:30em;
+      margin-bottom:2rem;
+      padding:0 1rem;
+      }
+q    {
+      font-size:1.2rem;
+      color:coral
+    }
+footer{
+      width:100%;
+      padding:26px 0;
+      background-color:palegoldenrod;
+      
+      ;
+}
+footer p{
+      
+      margin-bottom:0;
+      margin-right:auto;
+      margin-left:auto;
+      text-align:center;
+            
+}
+
+}
+
+@media(min-width:800px){
+main {
+        width:80%;
+        background-color:mistyrose;
+        margin-right:auto;
+        margin-left:auto;
+        
+     }
+
+#container {
+       width:100%;
+       text-align:center;
+       
+     }
+
+
+   
+body {
+       background-image: url("../images/StockSnap_QW9GTHWZIS.jpg");
+       background-size:contain;
+       background-repeat:repeat;
+       
+       margin:0;
+       
+     }
+
+
+header{
+       width:100%;
+       height:300px;
+       background-color:palegoldenrod;
+     }  
+ul    {
+       list-style-image: url("../images/star.png");
+       list-style-position:inside;
+
+}
+
+section{
+       width:90%;
+       text-align:center;
+       overflow:hidden;
+       /* margin-bottom:2rem; */
+       
+}
+.cat p{
+       width:55%;
+       min-width:320px;
+       box-sizing:border-box;
+       margin:0 1rem;
+    }
+.cat img {
+       width:35%;
+       min-width:200px;
+       box-sizing:border-box;
+    }
+main section:nth-child(1) p{
+       float:left; 
+    }
+main section:nth-child(2) p{
+       width:80%;
+       min-width:320px;
+       margin-right:auto;
+       margin-left:auto;
+    }
+main section:nth-child(1) img{
+       padding-right:1rem;
+    }
+main section:nth-child(3) P{
+       float:right;
+       margin-bottom:0;
+    }
+
+h1   {
+       font-family: 'Hachi Maru Pop', cursive;
+       
+       color:rgb(221, 108, 42);
+       margin:0;
+       padding:1rem 1rem 0;
+       border-left:5px solid #ffa500;
+       border-bottom:3px solid burlywood;
+
+     }
+
+h2   {
+       font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+       
+       color:#800000;
+       padding:0.5rem 0.5rem 0;
+       border-left:5px solid #ffa500;
+       border-bottom:3px solid burlywood;
+     }
+
+p   {
+       font-family:"ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+       text-align:justify;
+       color:cadetblue;
+       line-height:1.7;
+       width:30em;
+       margin-bottom:2rem;
+       padding:0 1rem;
+       }
+q    {
+       font-size:1.2rem;
+       color:coral
+     }
+footer{
+       width:100%;
+       padding:26px 0;
+       background-color:palegoldenrod;
+       
+       ;
+}
+footer p{
+       
+       margin-bottom:0;
+       margin-right:auto;
+       margin-left:auto;
+       text-align:center;
+             
+}
+}

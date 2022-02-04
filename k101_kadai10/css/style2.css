@@ -1,0 +1,53 @@
+@charset "UTF-8";
+#container {
+       width:80%;
+       margin-right:auto;
+       margin-left:auto;
+       background-color:mistyrose;
+     }
+
+
+   
+body {
+       background-image: url("../images/StockSnap_QW9GTHWZIS.jpg");
+       background-size:contain;
+       background-repeat:repeat;
+       margin:0;
+       
+     }
+header{
+       height:300px;
+       background-color:palegoldenrod;
+     }  
+
+h1   {
+       font-family: 'Hachi Maru Pop', cursive;
+       
+       color:rgb(221, 108, 42);
+       margin:0;
+       padding:1rem 1rem 0;
+       border-left:5px solid #ffa500;
+       border-bottom:3px solid burlywood;
+
+     }
+
+h2   {
+       font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+       
+       color:#800000;
+       padding:0.5rem 0.5rem 0;
+       border-left:5px solid #ffa500;
+       border-bottom:3px solid burlywood;
+     }
+
+p   {
+       font-family:"ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+       text-align:justify;
+       color:cadetblue;
+       line-height:1.7;
+       padding:0 1rem;
+       }
+q    {
+       font-size:1.2rem;
+       color:coral
+     }

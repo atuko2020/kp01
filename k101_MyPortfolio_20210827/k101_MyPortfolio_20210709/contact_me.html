@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>k101_contact_me</title>
+    <meta name="form" content="アンケート">
+</head>
+
+<body>
+<div id="container">
+<header>
+   <h1>MASAAKI KATO</h1>
+</header>
+<main>
+<section>
+   <h2>K101_Contact me</h2>
+   <br>
+   <form action="example.php" method="POST" name="contact-form">
+   <p><label for="名前">名前：</label>
+   <input type="text" name="name" placeholder="苗字　名前" id="名前"></p>
+   <p><label for="電話番号">電話番号:</label>
+   <input type="text" name="adress" placeholder="電話番号" id="電話番号"></p>
+   <p><label for="E-mail">E-mail:</label>
+   <input type="email" name="E-mail" placeholder="E-mailアドレス" id="E-mail"></p>
+
+   
+    <p><label for="メッセージ">メッセージ</label>
+    <textarea name="message" rows="5" cols="40" placeholder="メッセージを入力" id="メッセージ"></textarea></p>
+
+   <input type="submit" value="send">
+
+</form>
+</section>
+</main>
+<footer>
+    <p>Last Modified:
+        <script>
+            var modified = new Date(document.lastModified);
+            var year = modified.getFullYear();
+            var month = modified.getMonth() + 1;
+            var date = modified.getDate();
+            
+            var youbi = ['日','月','火','水','木','金','土'];
+            var youbi2 = modified.getDay();
+            document.write( year + "年"　+ month + "月" + date + "日" + youbi[youbi2] + "曜日");
+        </script>
+    </p>
+    <p><small>&copy;Masaaki Kato ,All Rights Reserved.</small></p>
+</footer>
+</div>
+</body>
+
+</html>

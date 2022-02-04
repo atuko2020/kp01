@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+       background-image: url("../images/bg.png");
+       background-size:cover;
+     }
+h1   {
+       font-family: 'Hachi Maru Pop', cursive;
+       background-color:#c71585;
+       color:burlywood;
+     }
+
+h2   {
+       font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+       background-color:#00ffff;
+       color:#800000;
+     }
+
+p   {
+       font-family:"ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+       text-align:justify;
+       color:cadetblue;
+       line-height:1.7;
+}

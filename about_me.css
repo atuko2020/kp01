@@ -1,0 +1,22 @@
+@charset "UTF-8";
+dl{
+    margin:0;
+}
+
+table,dl{
+    font-family:"Yu Gothick Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ pro W3",sans-serif;
+    line-height:1.7;
+    color:aliceblue;
+    margin:0;
+    margin-left:2em;
+}
+h1{
+    color:aquamarine;
+    margin-left:2em;
+}
+h2{
+    margin-left:2em;
+}
+#home p{
+    margin-left:2em;
+}
